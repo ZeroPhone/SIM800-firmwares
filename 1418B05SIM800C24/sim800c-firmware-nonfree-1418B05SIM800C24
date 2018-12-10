@@ -1,22 +1,13 @@
-### Commented entries have reasonable defaults.
-### Uncomment to edit them.
-# Source: <source package name; defaults to package name>
 Section: misc
 Priority: optional
 Homepage: https://github.com/ZeroPhone/SIM800-firmwares
 Standards-Version: 3.9.2
 
 Package: sim800c-firmware-nonfree-1418b05sim800c24
-Version: 1.0
+Version: 1.1
 Maintainer: Arsenijs Picugins <crimier@yandex.ru>
-# Pre-Depends: <comma-separated list of packages>
-# Recommends: <comma-separated list of packages>
-# Suggests: <comma-separated list of packages>
 Provides: sim800-firmware-nonfree
-# Replaces: <comma-separated list of packages>
 Architecture: all
-# Changelog: <changelog file; defaults to a generic changelog>
-# Readme: <README.Debian file; defaults to a generic one>
 Files: 1418B05SIM800C24.cfg /lib/firmware/1418B05SIM800C24
  BPLGUInfoCustomAppSrcP_MT6261_S00_1418B05SIM800C24 /lib/firmware/1418B05SIM800C24
  EXT_BOOTLOADER /lib/firmware/1418B05SIM800C24
@@ -25,5 +16,7 @@ Files: 1418B05SIM800C24.cfg /lib/firmware/1418B05SIM800C24
  SIM800C24_BOOTLOADER_V005_MT6261_1418B05SIM800C24.bin /lib/firmware/1418B05SIM800C24
  SIM800C24_PCB01_gprs_MT6261_S00.elf /lib/firmware/1418B05SIM800C24
  VIVA /lib/firmware/1418B05SIM800C24
+File: /lib/firmware/1418B05SIM800C24/sim_fw_zp_version
+ 3
 Description: A package that provides SIM800 1418B05SIM800C24 firmware files
  (non-free), suitable for flashing with mtkdownload.
